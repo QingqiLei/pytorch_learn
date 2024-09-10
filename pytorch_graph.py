@@ -35,5 +35,4 @@ def create_acc_loss_graph(filename):
 
     plt.show()
 
-create_acc_loss_graph('model.log')
-    
+    fig.savefig(filename+".png")
